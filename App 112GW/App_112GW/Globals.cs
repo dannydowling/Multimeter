@@ -94,7 +94,7 @@ namespace rMultiplatform
                         return Color.FromHex("#FFFFFF");
                     case Device.Android:
                         return Color.FromHex("#FFFFFF");
-                    case Device.UWP:
+                    case Device.Windows:
                         return Color.FromHex("#000000");
                 }
                 return Color.Black;
@@ -110,7 +110,7 @@ namespace rMultiplatform
                         return Color.FromHex("#C5CCB9");
                     case Device.Android:
                         return Color.FromHex("#000000");
-                    case Device.UWP:
+                    case Device.Windows:
                         return Color.FromHex("#000000");
                 }
                 return Color.Black;
@@ -126,7 +126,7 @@ namespace rMultiplatform
                         return Color.FromHex("#7E827A");
                     case Device.Android:
                         return Color.FromHex("#7E827A");
-                    case Device.UWP:
+                    case Device.Windows:
                         return Color.FromHex("#7E827A");
                 }
                 return Color.Black;
@@ -142,7 +142,7 @@ namespace rMultiplatform
                         return Color.FromHex("#111111");
                     case Device.Android:
                         return Color.FromHex("#FFFFFF");
-                    case Device.UWP:
+                    case Device.Windows:
                         return Color.FromHex("#FFFFFF");
                 }
                 return Color.Black;
@@ -158,7 +158,7 @@ namespace rMultiplatform
                         return Color.FromHex("#292F33");
                     case Device.Android:
                         return Color.FromHex("#292F33");
-                    case Device.UWP:
+                    case Device.Windows:
                         return Color.FromHex("#292F33");
                 }
                 return Color.Black;
